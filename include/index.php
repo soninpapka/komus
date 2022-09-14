@@ -3,13 +3,13 @@ if ( (isset($_REQUEST["sort"]) && isset($_REQUEST["method"])) || (isset($_REQUES
 	require($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/main/include/prolog_before.php");
 }else{
 	require($_SERVER['DOCUMENT_ROOT'].'/bitrix/header.php');
-	$APPLICATION->SetTitle("Главная");
+	$APPLICATION->SetTitle("Главная страница");
 }
 ?><?
 //default sorting
 $sortField1 = 'NAME';
 $sortOrder1 = 'ASC';
-
+//just comment
 $sortField2 = '';
 $sortOrder2 = '';
 
